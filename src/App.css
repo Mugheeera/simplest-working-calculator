@@ -1,19 +1,26 @@
-input {
+* {
+    font-family: sans-serif;
+  }
+
+  input, button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  input {
     display: block;
-    height: 2rem;
-    width: auto;
-    margin-bottom: 1rem;
-}
+    margin-bottom: 20px;
+  }
 
-button {
-    height: 2rem;
-    width: auto;
-    margin: 0.1rem;
-    border-radius: 0.5rem;
-}
+  button {
+    border: 1px solid gray;
+    background: whitesmoke;
+    margin-right: 5px;
+  }
 
-button[class^="reset"] {
-    background-color: orange;
-    border-radius: 0.5rem;
-    border: orange;
-}
+  button:nth-last-child(2), button:nth-last-child(1) {
+    background: tomato;
+    color: white;
+  }
+  
