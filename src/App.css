@@ -1,0 +1,19 @@
+input {
+    display: block;
+    height: 2rem;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+button {
+    height: 2rem;
+    width: auto;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+button[class^="reset"] {
+    background-color: orange;
+    border-radius: 0.5rem;
+    border: orange;
+}
